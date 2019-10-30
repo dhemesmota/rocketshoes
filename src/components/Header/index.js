@@ -9,7 +9,6 @@ import { Container, Cart } from './styles';
 import Logo from '../../assets/logo.svg';
 
 function Header({ cartSize }) {
-  console.log(cartSize);
   return (
     <Container>
       <Link to="/">
