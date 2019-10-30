@@ -32,10 +32,11 @@ export const Container = styled.div`
 export const EmptyCart = styled.div`
   flex: 1;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: #7159c1;
+  color: #2e2e2e;
 
   h1 {
     font-size: 2.5rem;
